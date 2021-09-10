@@ -1,6 +1,6 @@
 # goyek Repository Template
 
-[![Build Status](https://img.shields.io/github/workflow/status/goyek/template/build)](https://github.com/goyek/template/actions?query=workflow%3Abuild+branch%3Amain)
+[![build](https://github.com/goyek/template/actions/workflows/build.yml/badge.svg)](https://github.com/goyek/template/actions/workflows/build.yml)
 
 This is a simple Go GitHub repository template that uses [`goyek`](https://github.com/goyek/goyek) for build automation.
 
