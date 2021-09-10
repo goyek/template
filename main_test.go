@@ -1,13 +1,11 @@
 package main
 
-import (
-	"testing"
-
-	"github.com/stretchr/testify/assert"
-)
+import "testing"
 
 func Test_greet(t *testing.T) {
 	got := greet()
-
-	assert.Equal(t, "Hi!", got, "should properly greet")
+	want := "Hi!"
+	if got != want {
+		t.Errorf("greet() = %v, want %v", got, want)
+	}
 }

@@ -4,56 +4,24 @@ on:
   push: 
     branches: [ main ]
   pull_request:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  ci:
+  goyek:
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-20.04, macos-10.15, windows-2019 ]
+        include:
+          - os: ubuntu-20.04
+            run-script: ./goyek.sh -v -ci
+          - os: windows-2019
+            run-script: .\goyek.ps1 -v -ci
+          - os: macos-10.15
+            run-script: ./goyek.sh -v -ci
     runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        shell: bash
     steps:
-      - uses: actions/checkout@v2
-
-      - uses: actions/setup-go@v2
+      - uses: actions/checkout@v2.3.4
+      - uses: actions/setup-go@v2.1.4
         with:
-          go-version: 1.16
-
-      - name: Build
-        run: make ci
-      - name: Upload coverage
-        uses: actions/upload-artifact@v2
-        with:
-          name: coverage
-          path: coverage.*
-
-      - name: Upload dist
-        uses: actions/upload-artifact@v2
-        with:
-          name: dist
-          path: dist
-
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v2.0.3
-        with:
-          file: ./coverage.out
-          flags: ${{ runner.os }}
-
-  release-test:
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - uses: actions/setup-go@v2
-        with:
-          go-version: 1.16
-
-      - name: Release test
-        run: make build
+          go-version: '1.17'
+      - run: ${{ matrix.run-script }}
