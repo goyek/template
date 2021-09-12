@@ -1,4 +1,4 @@
-# goyek Repository Template
+# goyek repository template
 
 [![build](https://github.com/goyek/template/actions/workflows/build.yml/badge.svg)](https://github.com/goyek/template/actions/workflows/build.yml)
 
