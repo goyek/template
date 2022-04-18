@@ -20,7 +20,7 @@ jobs:
             run-script: ./goyek.sh -v -ci
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v3.0.0
+      - uses: actions/checkout@v3.0.1
       - uses: actions/setup-go@v3.0.0
         with:
           go-version: '1.17'
