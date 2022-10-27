@@ -58,21 +58,24 @@ However, take notice that the Visual Studio Go extension is
 
 ## Build
 
-### Bash
+```sh
+cd build
+go run .
+```
+
+Using convenient Bash script:
 
 ```sh
-./goyek.sh -h
 ./goyek.sh
 ```
 
-### PowerShell
+Using convenient PowerShell script:
 
 ```pwsh
-.\goyek.ps1 -h
 .\goyek.ps1
 ```
 
-### Visual Studio Code
+Using Visual Studio Code:
 
 `F1` → `Tasks: Run Build Task (Ctrl+Shift+B or ⇧⌘B)`
 
