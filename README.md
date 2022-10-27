@@ -21,8 +21,7 @@ It also includes:
 - dependency management using [Go Modules](https://github.com/golang/go/wiki/Modules),
 - code formatting using [gofumpt](https://github.com/mvdan/gofumpt),
 - linting with [golangci-lint](https://github.com/golangci/golangci-lint),
-  [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli),
-  and [misspell](https://github.com/client9/misspell),
+- spell checking using [misspell](https://github.com/client9/misspell),
 - unit testing with
   [race detector](https://blog.golang.org/race-detector),
   code covarage [HTML report](https://blog.golang.org/cover)
@@ -87,5 +86,4 @@ Notable files:
 - [build](build) - build pipeline used for local development, [CI build](.github/workflows),
   and [.vscode/tasks.json](.vscode/tasks.json),
 - [build/tools.go](build/tools.go) - [build tools](https://github.com/golang/go/wiki/Modules#how-can-i-track-tool-dependencies-for-a-module),
-- [.golangci.yml](.golangci.yml) - golangci-lint configuration,
-- [.markdownlint.yaml](.markdownlint.yaml) - markdownlint configuration.
+- [.golangci.yml](.golangci.yml) - golangci-lint configuration.

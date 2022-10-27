@@ -8,6 +8,7 @@ var all = goyek.Define(goyek.Task{
 	Deps: goyek.Deps{
 		mod,
 		build,
+		spell,
 		lint,
 		test,
 	},
