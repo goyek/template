@@ -1,0 +1,10 @@
+# Default state for all rules
+default: true
+
+# hard-tabs
+MD010: false
+
+# allow long lines for tables and code blocks
+MD013:
+  code_blocks: false
+  tables: false
