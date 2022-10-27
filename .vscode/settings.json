@@ -1,0 +1,19 @@
+{
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+    },
+    // gopls
+    "go.useLanguageServer": true,
+    "gopls": {
+        "formatting.local": "github.com/goyek/goyek/v2",
+        "formatting.gofumpt": true
+    },
+    // golangci-lint  
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ]
+}

@@ -15,6 +15,13 @@
 *.out
 coverage.html
 
+# build binary
+/build/build
+/build/build.exe
+
+# Output of build
+dist/
+
 # Dependency directories (remove the comment below to include it)
 #vendor/
 
