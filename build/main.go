@@ -49,7 +49,7 @@ func main() {
 	}
 
 	goyek.SetUsage(usage)
-	goyek.Main(os.Args[1:])
+	goyek.Main(flag.Args(), opts...)
 }
 
 func usage() {
