@@ -16,6 +16,6 @@ var build = goyek.Define(goyek.Task{
 			tf.Fatal(err)
 		}
 		ext := strings.TrimSpace(string(extBytes))
-		Exec(tf, `go build -ldflags="-s -w" -o dist/app`+ext)
+		Exec(tf, dirRoot, `go build -ldflags="-s -w" -o dist/app`+ext)
 	},
 })
