@@ -6,7 +6,7 @@ require (
 	github.com/client9/misspell v0.3.4
 	github.com/golangci/golangci-lint v1.50.1
 	github.com/goyek/goyek/v2 v2.0.0-rc.8
-	github.com/goyek/x v0.0.0-20221101102653-416aa2636950
+	github.com/goyek/x v0.1.0
 )
 
 require (
