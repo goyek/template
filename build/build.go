@@ -5,6 +5,7 @@ import (
 	"strings"
 
 	"github.com/goyek/goyek/v2"
+	"github.com/goyek/x/cmd"
 )
 
 var build = goyek.Define(goyek.Task{
@@ -16,6 +17,6 @@ var build = goyek.Define(goyek.Task{
 			tf.Fatal(err)
 		}
 		ext := strings.TrimSpace(string(extBytes))
-		Exec(tf, dirRoot, `go build -ldflags="-s -w" -o dist/app`+ext)
+		cmd.Exec(tf, `go build -ldflags="-s -w" -o dist/app`+ext)
 	},
 })
