@@ -11,12 +11,12 @@ import (
 var build = goyek.Define(goyek.Task{
 	Name:  "build",
 	Usage: "go build",
-	Action: func(tf *goyek.TF) {
-		extBytes, err := exec.CommandContext(tf.Context(), "go", "env", "GOEXE").CombinedOutput()
+	Action: func(a *goyek.A) {
+		extBytes, err := exec.CommandContext(a.Context(), "go", "env", "GOEXE").CombinedOutput()
 		if err != nil {
-			tf.Fatal(err)
+			a.Fatal(err)
 		}
 		ext := strings.TrimSpace(string(extBytes))
-		cmd.Exec(tf, `go build -ldflags="-s -w" -o dist/app`+ext)
+		cmd.Exec(a, `go build -ldflags="-s -w" -o dist/app`+ext)
 	},
 })
