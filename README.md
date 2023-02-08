@@ -4,7 +4,7 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/goyek/template.svg)](https://pkg.go.dev/github.com/goyek/template)
 [![go.mod](https://img.shields.io/github/go-mod/go-version/goyek/template)](go.mod)
 [![LICENSE](https://img.shields.io/github/license/goyek/template)](LICENSE)
-[![Build Status](https://img.shields.io/github/workflow/status/goyek/template/build)](https://github.com/goyek/template/actions?query=workflow%3Abuild+branch%3Amain)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/goyek/template/build.yml?branch=main)](https://github.com/goyek/template/actions?query=workflow%3Abuild+branch%3Amain)
 [![Go Report Card](https://goreportcard.com/badge/github.com/goyek/template)](https://goreportcard.com/report/github.com/goyek/template)
 [![Codecov](https://codecov.io/gh/goyek/template/branch/main/graph/badge.svg)](https://codecov.io/gh/goyek/template)
 
