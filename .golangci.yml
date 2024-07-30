@@ -6,10 +6,6 @@ linters-settings:
     min-complexity: 15
   goimports:
     local-prefixes: github.com/goyek/template
-  govet:
-    enable-all: true
-    disable:
-    - fieldalignment
   misspell:
     locale: US
   nolintlint:
@@ -23,6 +19,7 @@ linters-settings:
 linters:
   disable-all: true
   enable:
+    - bodyclose
     - asasalint
     - dogsled
     - dupl
@@ -36,6 +33,7 @@ linters:
     - gofumpt
     - goimports
     - revive
+    - rowserrcheck
     - godot
     - goprintffuncname
     - gosec
@@ -50,6 +48,7 @@ linters:
     - perfsprint
     - staticcheck
     - stylecheck
+    - sqlclosecheck
     - typecheck
     - unconvert
     - unparam
