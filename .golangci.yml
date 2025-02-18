@@ -6,6 +6,11 @@ linters-settings:
     min-complexity: 15
   goimports:
     local-prefixes: github.com/goyek/template
+  govet:
+    enable-all: true
+    disable:
+    - fieldalignment
+    - nilness
   misspell:
     locale: US
   nolintlint:
@@ -21,11 +26,11 @@ linters:
   enable:
     - asasalint
     - bodyclose
+    - copyloopvar
     - dogsled
     - dupl
     - dupword
     - errcheck
-    - exportloopref
     - funlen
     - gocritic
     - goconst

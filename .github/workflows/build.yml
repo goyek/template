@@ -22,8 +22,8 @@ jobs:
 
       - uses: actions/setup-go@v5
         with:
-          go-version: '1.22'
-          cache-dependency-path: '**/go.sum'
+          go-version: '1.24'
+          check-latest: true
 
       - name: Build
         run: ./goyek.sh all diff

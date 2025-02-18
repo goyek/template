@@ -1,4 +1,2 @@
-Push-Location "$PSScriptRoot\build" -ErrorAction Stop
-& go run . $args
-Pop-Location
+& go run .\build $args
 exit $global:LASTEXITCODE

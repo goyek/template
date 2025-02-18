@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "go run .",
             "options": {
-                "cwd": "${workspaceFolder}/build"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$go"
