@@ -10,7 +10,7 @@ import (
 func find(a *goyek.A, ext string) []string {
 	a.Helper()
 	var files []string
-	err := filepath.WalkDir(dirRoot, func(path string, d fs.DirEntry, err error) error {
+	err := filepath.WalkDir(".", func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
 			return err
 		}
