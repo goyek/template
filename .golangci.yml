@@ -62,7 +62,6 @@ linters:
     - usetesting
     - whitespace
 
-
 issues:
   exclude:
     - EXC0001
