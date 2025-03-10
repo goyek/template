@@ -10,7 +10,6 @@ linters-settings:
     enable-all: true
     disable:
     - fieldalignment
-    - nilness
   misspell:
     locale: US
   nolintlint:
@@ -31,15 +30,14 @@ linters:
     - dupl
     - dupword
     - errcheck
+    - errorlint
     - funlen
     - gocritic
     - goconst
     - gocyclo
+    - godot
     - gofumpt
     - goimports
-    - revive
-    - rowserrcheck
-    - godot
     - goprintffuncname
     - gosec
     - gosimple
@@ -51,13 +49,17 @@ linters:
     - noctx
     - nolintlint
     - perfsprint
+    - revive
+    - rowserrcheck
+    - sqlclosecheck
     - staticcheck
     - stylecheck
-    - sqlclosecheck
     - typecheck
     - unconvert
     - unparam
     - unused
+    - usestdlibvars
+    - usetesting
     - whitespace
 
 issues:
