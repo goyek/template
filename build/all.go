@@ -11,5 +11,6 @@ var all = goyek.Define(goyek.Task{
 		spell,
 		lint,
 		test,
+		vuln,
 	},
 })

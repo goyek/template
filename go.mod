@@ -5,6 +5,7 @@ go 1.24.0
 tool (
 	github.com/client9/misspell/cmd/misspell
 	github.com/golangci/golangci-lint/cmd/golangci-lint
+	golang.org/x/vuln/cmd/govulncheck
 )
 
 require (
@@ -191,8 +192,10 @@ require (
 	golang.org/x/mod v0.23.0 // indirect
 	golang.org/x/sync v0.11.0 // indirect
 	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/telemetry v0.0.0-20240522233618-39ace7a40ae7 // indirect
 	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/tools v0.30.0 // indirect
+	golang.org/x/vuln v1.1.4 // indirect
 	google.golang.org/protobuf v1.36.4 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
