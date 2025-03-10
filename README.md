@@ -88,5 +88,4 @@ Notable files:
 - [.vscode](.vscode) - Visual Studio Code configuration files,
 - [build](build) - build pipeline used for local development, [CI build](.github/workflows),
   and [.vscode/tasks.json](.vscode/tasks.json),
-- [build/tools.go](build/tools.go) - [build tools](https://github.com/golang/go/wiki/Modules#how-can-i-track-tool-dependencies-for-a-module),
 - [.golangci.yml](.golangci.yml) - golangci-lint configuration.
