@@ -1,6 +1,7 @@
 module github.com/goyek/template
 
 go 1.24.0
+
 tool (
 	github.com/client9/misspell/cmd/misspell
 	github.com/golangci/golangci-lint/cmd/golangci-lint
