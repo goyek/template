@@ -1,7 +1,6 @@
 module github.com/goyek/template
 
 go 1.24.0
-
 tool (
 	github.com/client9/misspell/cmd/misspell
 	github.com/golangci/golangci-lint/cmd/golangci-lint
@@ -10,7 +9,7 @@ tool (
 
 require (
 	github.com/goyek/goyek/v2 v2.3.0
-	github.com/goyek/x v0.2.0
+	github.com/goyek/x v0.3.0
 )
 
 require (
