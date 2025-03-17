@@ -296,8 +296,8 @@ github.com/gostaticanalysis/testutil v0.5.0 h1:Dq4wT1DdTwTGCQQv3rl3IvD5Ld0E6HiY+
 github.com/gostaticanalysis/testutil v0.5.0/go.mod h1:OLQSbuM6zw2EvCcXTz1lVq5unyoNft372msDY0nY5Hs=
 github.com/goyek/goyek/v2 v2.3.0 h1:ZQlQZp+JOkbZXuPNw6SbeQxYMRKB0Gm3nbC2K9IY1r4=
 github.com/goyek/goyek/v2 v2.3.0/go.mod h1:VKzmleKfV5LB9f20Xg5umuPC4XfSdDXwPNesfr1RsLU=
-github.com/goyek/x v0.2.0 h1:vLTzDTqbUQnWTM3NOnejGAWwWZA+hJHElv/cd/3ybQc=
-github.com/goyek/x v0.2.0/go.mod h1:I1yv17Zj0g3Zv5iDC+kB9gh3cqJquJSTEgfognEfe94=
+github.com/goyek/x v0.3.0 h1:JEgcLmqnxAPFR7/IqPMBoSRUcvykNS3o7YCVrC1VKHQ=
+github.com/goyek/x v0.3.0/go.mod h1:mgGZpAHdFAW9vEpq+aGFF36DTo/zRjmE7z4BMKVqD7g=
 github.com/hashicorp/go-immutable-radix/v2 v2.1.0 h1:CUW5RYIcysz+D3B+l1mDeXrQ7fUvGGCwJfdASSzbrfo=
 github.com/hashicorp/go-immutable-radix/v2 v2.1.0/go.mod h1:hgdqLXA4f6NIjRVisM1TJ9aOJVNRqKZj+xDGF6m7PBw=
 github.com/hashicorp/go-uuid v1.0.3 h1:2gKiV6YVmrJ1i2CKKa9obLvRieoRGviZFL26PcT/Co8=

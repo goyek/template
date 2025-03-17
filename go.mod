@@ -10,7 +10,7 @@ tool (
 
 require (
 	github.com/goyek/goyek/v2 v2.3.0
-	github.com/goyek/x v0.2.0
+	github.com/goyek/x v0.3.0
 )
 
 require (
