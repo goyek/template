@@ -9,8 +9,8 @@ tool (
 )
 
 require (
-	github.com/goyek/goyek/v2 v2.3.0
-	github.com/goyek/x v0.3.0
+	github.com/goyek/goyek/v3 v3.0.0
+	github.com/goyek/x v0.4.0
 )
 
 require (
