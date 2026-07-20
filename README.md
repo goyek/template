@@ -26,7 +26,8 @@ It also includes:
   [race detector](https://blog.golang.org/race-detector),
   code covarage [HTML report](https://blog.golang.org/cover)
   and [Codecov report](https://codecov.io/),
-- dependencies scanning and updating thanks to [Dependabot](https://dependabot.com),
+- dependencies scanning and updating thanks to [Renovate](https://github.com/renovatebot/renovate),
+  configured via the [Renovate GitHub App](https://github.com/apps/renovate),
 - security code analysis using [CodeQL Action](https://docs.github.com/en/github/finding-security-vulnerabilities-and-errors-in-your-code/about-code-scanning),
 - [Visual Studio Code](https://code.visualstudio.com) configuration with
   [Go](https://code.visualstudio.com/docs/languages/go) support.
@@ -84,7 +85,7 @@ Using Visual Studio Code:
 Notable files:
 
 - [.github/workflows](.github/workflows) - GitHub Actions workflows,
-- [.github/dependabot.yml](.github/dependabot.yml) - Dependabot configuration,
+- [renovate.json](renovate.json) - Renovate configuration,
 - [.vscode](.vscode) - Visual Studio Code configuration files,
 - [build](build) - build pipeline used for local development, [CI build](.github/workflows),
   and [.vscode/tasks.json](.vscode/tasks.json),
